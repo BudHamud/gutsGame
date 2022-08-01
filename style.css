@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+* {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 25px;
+}
 header {
     display: flex;
     align-items: center;
@@ -8,15 +13,24 @@ header img {
     height: 40px;
 }
 main {
+    font-size: 18px;
     background-image: url(img/bers.png);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+    min-height: 90vh; 
+}
+main button {
+    padding: 6px;
+    border: solid gray 3px;
+    background-color: black;
+    color: white;
 }
 main img {
-    width: 50%;
+    height: 400px;
+    width: 100%;
 }
 main .imghis {
     display: flex;
@@ -25,7 +39,9 @@ main .imghis {
 main .sechis {
     text-align: center;
     background-color: antiquewhite;
+    padding: 20px;
     width: 60%;
+    margin-top: 10px;
 }
 @media (max-width: 600px) {
     main img {

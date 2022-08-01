@@ -32,7 +32,7 @@
     {
       "opcion": 3,
       "titulo": "Atacar",
-      "texto": "Al acercarte ak bicho te das cuenta que es Griffith, cagaste rey",
+      "texto": "Al acercarte al bicho te das cuenta que es Griffith, cagaste rey",
       "uno": "Volver",
       "tres": 0,
       "dos": "Volver",
@@ -50,24 +50,63 @@
       "cinco": 3
     },
     {
-      "opcion": 6,
+      "opcion": 5,
       "titulo": "EOEOEOEOEOEEOEO",
       "texto": "Armás más quilombo del que había, qué imbécil",
       "uno": "Volver",
       "tres": 0,
       "dos": "Volver",
       "cuatro": 0,
-      "cinco": 5
+      "cinco": 1
     },
     {
       "opcion": 6,
       "titulo": "Dame una birrita",
-      "texto": "Eso es lo que le decís al cantinero, PERO ESE CANTINERO ES GRIFFITH.",
-      "uno": "Volver",
-      "tres": 0,
-      "dos": "Volver",
-      "cuatro": 0,
-      "cinco": 1
+      "texto": "Le pedís una cerveza al cantinero mientras observás la situación en la taberna. Hay 3 tipos lanzando cuchillos a un hada que se encuentra atada porque la secuestraron por pura diversión. Te resulta incómodo tener que escuchar a estos tres haciendo tanto quilombo por lo que deberías tomar una decisión.",
+      "uno": "Volver a la ciudad",
+      "tres": 2,
+      "dos": "Entrentarlos",
+      "cuatro": 7,
+      "cinco": 6
+    },
+    {
+      "opcion": 7,
+      "titulo": "Enfrentar a los Bandidos",
+      "texto": "Te acercas al jefe de la tribu y le pedís que se tranquilice un poco y te deje tomarte tu birrita. A lo cual responde de manera violenta intentando lastimarte. Sin dudarlo mucho sacás tu espada de 3 metros y lo cortás a la mitad. Los otros dos se escapan de la taberna y vos podés disfrutar de tu birrita.",
+      "uno": "Volver a la ciudad",
+      "tres": 8,
+      "dos": "Volver a la ciudad",
+      "cuatro": 8,
+      "cinco": 7
+    },
+    {
+      "opcion": 8,
+      "titulo": "Windom",
+      "texto": "Caminando por las calles de Wimdom, observás a la distancia un tumulto de gente al rededor de algo que no sabías qué era. Por lo cual te acercás a descubrir qué era lo que estaban viendo. Sin darte cuenta te metés en el medio de 100 soldados del rey que estaban buscando a la persona que mató a los bandidos del bar.",
+      "uno": "Hacerse responsable",
+      "tres": 9,
+      "dos": "Fue ese tipo de ahí",
+      "cuatro": 10,
+      "cinco": 7
+    },
+    {
+      "opcion": 9,
+      "titulo": "Fuí yo",
+      "texto": "Esas fueron tus palabras, el rey sin sorprenderse mucho te lleva al calabozo para que recibas tu merecido castigo por haber hecho semejante barbaridad.",
+      "uno": "Hacerse responsable",
+      "tres": 9,
+      "dos": "Fue ese tipo de ahí",
+      "cuatro": 10,
+      "cinco": 0
+    },
+    {
+      "opcion": 10,
+      "titulo": "FUE ESE TIPO DE AHÍ",
+      "texto": "La persona que señalaste no era nada más ni nada menos que TOPA! La personas más buena que hay. Pero es tan buena que dió su vida por vos.",
+      "uno": "Hacerse responsable",
+      "tres": 9,
+      "dos": "Fue ese tipo de ahí",
+      "cuatro": 10,
+      "cinco": 8
     }
-    
 ]
