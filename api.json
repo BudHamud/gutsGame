@@ -2,7 +2,7 @@
     {
       "opcion": 0,
       "titulo": "El espadachín negro",
-      "texto": "Te encontrás en una ciudad llamada Windom en una era medieval en donde los conflictos y los tipos peligrosos eran el pan de cada día (qué digo). Caminando en esta bella ciudad te agarra un poco de hambre y se te ocurre la idea de meterte en una taberna lleno de tipos jodidos o seguír explorando la ciudad.",
+      "texto": "Te encontrás en una ciudad llamada Windom en una era medieval en donde los conflictos y los tipos peligrosos eran el pan de cada día. Caminando en esta bella ciudad te agarra un poco de hambre y se te ocurre la idea de meterte en una taberna lleno de tipos jodidos o seguír explorando la ciudad.",
       "uno": "Entrar a la taberna",
       "tres": 1,
       "dos": "Explorar",
@@ -32,7 +32,7 @@
     {
       "opcion": 3,
       "titulo": "Atacar",
-      "texto": "Al acercarte al bicho te das cuenta que es Griffith, cagaste rey",
+      "texto": "Al acercarte al bicho te das cuenta que es Griffith, perdiste",
       "uno": "Volver",
       "tres": 0,
       "dos": "Volver",
@@ -42,7 +42,7 @@
     {
       "opcion": 4,
       "titulo": "Defenderse",
-      "texto": "Resulta que ese bicho es Griffith! Carajo, perdiste",
+      "texto": "Resulta que ese bicho es Griffith! Que mal, perdiste",
       "uno": "Volver",
       "tres": 0,
       "dos": "Volver",
@@ -52,7 +52,7 @@
     {
       "opcion": 5,
       "titulo": "EOEOEOEOEOEEOEO",
-      "texto": "Armás más quilombo del que había, qué imbécil",
+      "texto": "Armás más quilombo del que había, qué tonto",
       "uno": "Volver",
       "tres": 0,
       "dos": "Volver",
