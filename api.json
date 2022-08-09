@@ -87,26 +87,26 @@
       "tres": 9,
       "dos": "Fue ese tipo de ahí",
       "cuatro": 10,
-      "cinco": 7
+      "cinco": 9
     },
     {
       "opcion": 9,
       "titulo": "Fuí yo",
       "texto": "Esas fueron tus palabras, el rey sin sorprenderse mucho te lleva al calabozo para que recibas tu merecido castigo por haber hecho semejante barbaridad.",
-      "uno": "Hacerse responsable",
-      "tres": 9,
-      "dos": "Fue ese tipo de ahí",
-      "cuatro": 10,
+      "uno": "Volver",
+      "tres": 0,
+      "dos": "Volver",
+      "cuatro": 0,
       "cinco": 0
     },
     {
       "opcion": 10,
       "titulo": "FUE ESE TIPO DE AHÍ",
       "texto": "La persona que señalaste no era nada más ni nada menos que TOPA! La personas más buena que hay. Pero es tan buena que dió su vida por vos.",
-      "uno": "Hacerse responsable",
-      "tres": 9,
-      "dos": "Fue ese tipo de ahí",
-      "cuatro": 10,
+      "uno": "Volver",
+      "tres": 0,
+      "dos": "Volver",
+      "cuatro": 0,
       "cinco": 8
     }
 ]

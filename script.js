@@ -35,14 +35,3 @@ function cambiar(value) {
     opcion = value
     fech()
 }
-
-let num = Number(prompt("numero"))
-let ram = Math.round(Math.random()*10)
-
-if (num === ram) {
-    alert("acertaste!")
-} if (num > ram) {
-    alert("no acertaste, es más chico "+ram)
-} if (num < ram) {
-    alert("no acertaste, es más grande "+ram)
-}
