@@ -1,112 +1,273 @@
 [
-    {
-      "opcion": 0,
-      "titulo": "El espadachín negro",
-      "texto": "Te encontrás en una ciudad llamada Windom en una era medieval en donde los conflictos y los tipos peligrosos eran el pan de cada día. Caminando en esta bella ciudad te agarra un poco de hambre y se te ocurre la idea de meterte en una taberna lleno de tipos jodidos o seguír explorando la ciudad.",
-      "uno": "Entrar a la taberna",
-      "tres": 1,
-      "dos": "Explorar",
-      "cuatro": 2,
-      "cinco": 0
-    },
-    {
-      "opcion": 1,
-      "titulo": "La taberna del quilombo",
-      "texto": "Adentro hay un montón de quilombo.",
-      "uno": "Hacer más quilombo",
-      "tres": 5,
-      "dos": "Pedirse una Birritas",
-      "cuatro": 6,
-      "cinco": 4
-    },
-    {
-      "opcion": 2,
-      "titulo": "Windom",
-      "texto": "Caminando por las calles de Wimdom, te encontrás con un bicho sanguinario que está en busca de manzanas.",
-      "uno": "Atacar",
-      "tres": 3,
-      "dos": "Defenderse",
-      "cuatro": 4,
-      "cinco": 2
-    },
-    {
-      "opcion": 3,
-      "titulo": "Atacar",
-      "texto": "Al acercarte al bicho te das cuenta que es Griffith, perdiste",
-      "uno": "Volver",
-      "tres": 0,
-      "dos": "Volver",
-      "cuatro": 0,
-      "cinco": 3
-    },
-    {
-      "opcion": 4,
-      "titulo": "Defenderse",
-      "texto": "Resulta que ese bicho es Griffith! Que mal, perdiste",
-      "uno": "Volver",
-      "tres": 0,
-      "dos": "Volver",
-      "cuatro": 0,
-      "cinco": 3
-    },
-    {
-      "opcion": 5,
-      "titulo": "EOEOEOEOEOEEOEO",
-      "texto": "Armás más quilombo del que había, qué tonto",
-      "uno": "Volver",
-      "tres": 0,
-      "dos": "Volver",
-      "cuatro": 0,
-      "cinco": 1
-    },
-    {
-      "opcion": 6,
-      "titulo": "Dame una birrita",
-      "texto": "Le pedís una cerveza al cantinero mientras observás la situación en la taberna. Hay 3 tipos lanzando cuchillos a un hada que se encuentra atada porque la secuestraron por pura diversión. Te resulta incómodo tener que escuchar a estos tres haciendo tanto quilombo por lo que deberías tomar una decisión.",
-      "uno": "Volver a la ciudad",
-      "tres": 2,
-      "dos": "Entrentarlos",
-      "cuatro": 7,
-      "cinco": 6
-    },
-    {
-      "opcion": 7,
-      "titulo": "Enfrentar a los Bandidos",
-      "texto": "Te acercas al jefe de la tribu y le pedís que se tranquilice un poco y te deje tomarte tu birrita. A lo cual responde de manera violenta intentando lastimarte. Sin dudarlo mucho sacás tu espada de 3 metros y lo cortás a la mitad. Los otros dos se escapan de la taberna y vos podés disfrutar de tu birrita.",
-      "uno": "Volver a la ciudad",
-      "tres": 8,
-      "dos": "Volver a la ciudad",
-      "cuatro": 8,
-      "cinco": 7
-    },
-    {
-      "opcion": 8,
-      "titulo": "Windom",
-      "texto": "Caminando por las calles de Wimdom, observás a la distancia un tumulto de gente al rededor de algo que no sabías qué era. Por lo cual te acercás a descubrir qué era lo que estaban viendo. Sin darte cuenta te metés en el medio de 100 soldados del rey que estaban buscando a la persona que mató a los bandidos del bar.",
-      "uno": "Hacerse responsable",
-      "tres": 9,
-      "dos": "Fue ese tipo de ahí",
-      "cuatro": 10,
-      "cinco": 9
-    },
-    {
-      "opcion": 9,
-      "titulo": "Fuí yo",
-      "texto": "Esas fueron tus palabras, el rey sin sorprenderse mucho te lleva al calabozo para que recibas tu merecido castigo por haber hecho semejante barbaridad.",
-      "uno": "Volver",
-      "tres": 0,
-      "dos": "Volver",
-      "cuatro": 0,
-      "cinco": 0
-    },
-    {
-      "opcion": 10,
-      "titulo": "FUE ESE TIPO DE AHÍ",
-      "texto": "La persona que señalaste no era nada más ni nada menos que TOPA! La personas más buena que hay. Pero es tan buena que dió su vida por vos.",
-      "uno": "Volver",
-      "tres": 0,
-      "dos": "Volver",
-      "cuatro": 0,
-      "cinco": 8
-    }
+  {
+    "opcion": 0,
+    "numBtns": 2,
+    "titulo": "El espadachín negro",
+    "texto": "Te encontrás en una ciudad llamada Windom en una era medieval en donde los conflictos y los tipos peligrosos eran el pan de cada día. Caminando en esta bella ciudad te agarra un poco de hambre y se te ocurre la idea de meterte en una taberna lleno de tipos jodidos o seguír explorando la ciudad.",
+    "rutaOp1": "Entrar a la taberna",
+    "rutaBtn1": 1,
+    "rutaOp2": "Explorar",
+    "rutaBtn2": 2,
+    "img": "0.svg"
+  },
+  {
+    "opcion": 1,
+    "numBtns": 2,
+    "titulo": "La taberna del quilombo",
+    "texto": "Adentro hay un montón de quilombo.",
+    "rutaOp1": "Hacer más quilombo",
+    "rutaBtn1": 5,
+    "rutaOp2": "Pedirse una Birritas",
+    "rutaBtn2": 6,
+    "img": "4.svg"
+  },
+  {
+    "opcion": 2,
+    "numBtns": 2,
+    "titulo": "Windom",
+    "texto": "Caminando por las calles de Wimdom, te encontrás con un bicho sanguinario que está en busca de manzanas.",
+    "rutaOp1": "Atacar",
+    "rutaBtn1": 3,
+    "rutaOp2": "Defenderse",
+    "rutaBtn2": 4,
+    "img": "2.svg"
+  },
+  {
+    "opcion": 3,
+    "numBtns": 1,
+    "titulo": "Atacar",
+    "texto": "Al acercarte al bicho te das cuenta que es Griffith, perdiste",
+    "rutaOp1": "Volver",
+    "rutaBtn1": 0,
+    "img": "3.svg"
+  },
+  {
+    "opcion": 4,
+    "numBtns": 1,
+    "titulo": "Defenderse",
+    "texto": "Resulta que ese bicho es Griffith! Que mal, perdiste",
+    "rutaOp1": "Volver",
+    "rutaBtn1": 0,
+    "img": "3.svg"
+  },
+  {
+    "opcion": 5,
+    "numBtns": 1,
+    "titulo": "EOEOEOEOEOEEOEO",
+    "texto": "Armás más quilombo del que había, qué tonto",
+    "rutaOp1": "Volver",
+    "rutaBtn1": 0,
+    "img": "1.svg"
+  },
+  {
+    "opcion": 6,
+    "numBtns": 2,
+    "titulo": "Dame una birrita",
+    "texto": "Le pedís una cerveza al cantinero mientras observás la situación en la taberna. Hay 3 tipos lanzando cuchillos a un hada que se encuentra atada porque la secuestraron por pura diversión. Te resulta incómodo tener que escuchar a estos tres haciendo tanto quilombo por lo que deberías tomar una decisión.",
+    "rutaOp1": "Volver a la ciudad",
+    "rutaBtn1": 2,
+    "rutaOp2": "Entrentarlos",
+    "rutaBtn2": 7,
+    "img": "6.svg"
+  },
+  {
+    "opcion": 7,
+    "numBtns": 1,
+    "titulo": "Enfrentar a los Bandidos",
+    "texto": "Te acercas al jefe de la tribu y le pedís que se tranquilice un poco y te deje tomarte tu birrita. A lo cual responde de manera violenta intentando lastimarte. Sin dudarlo mucho sacás tu espada de 3 metros y lo cortás a la mitad. Los otros dos se escapan de la taberna y vos podés disfrutar de tu birrita.",
+    "rutaOp1": "Volver a la ciudad",
+    "rutaBtn1": 8,
+    "img": "7.svg"
+  },
+  {
+    "opcion": 8,
+    "numBtns": 2,
+    "titulo": "Windom",
+    "texto": "Caminando por las calles de Wimdom, observás a la distancia un tumulto de gente al rededor de algo que no sabías qué era. Por lo cual te acercás a descubrir qué era lo que estaban viendo. Sin darte cuenta te metés en el medio de 100 soldados del rey que estaban buscando a la persona que mató a los bandidos del bar.",
+    "rutaOp1": "Hacerse responsable",
+    "rutaBtn1": 9,
+    "rutaOp2": "Fue ese tipo de ahí",
+    "rutaBtn2": 10,
+    "img": "9.svg"
+  },
+  {
+    "opcion": 9,
+    "numBtns": 1,
+    "titulo": "Fuí yo",
+    "texto": "Esas fueron tus palabras, el rey sin sorprenderse mucho te lleva al calabozo para que recibas tu merecido castigo por haber hecho semejante barbaridad. Allá te torturan multiples veces hasta dejarte inconciente.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 11,
+    "img": "10.svg"
+  },
+  {
+    "opcion": 10,
+    "numBtns": 1,
+    "titulo": "FUE ESE TIPO DE AHÍ",
+    "texto": "La persona que señalaste no era nada más ni nada menos que TOPA! La personas más buena que hay. Pero es tan buena que dió su vida por vos. Perdiste por ser mala persona.",
+    "rutaOp1": "Volver",
+    "rutaBtn1": 0,
+    "img": "8.svg"
+  },
+  {
+    "opcion": 11,
+    "numBtns": 1,
+    "titulo": "Encuentro inesperado",
+    "texto": "Al despertarte el elfo que 'salvaste' vino en tu rescate con las llaves para liberarte y curarte las heridas con el polvo de hada. Después de su ayuda le confesás que realmente no querías salvarlo, sino que los bandidos te molestaban y decidiste matarlos por ese motivo.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 12,
+    "img": "11.svg"
+  },
+  {
+    "opcion": 12,
+    "numBtns": 1,
+    "titulo": "Lider bandido",
+    "texto": "El enterarse de esto el hada se ofende y huye. Luego de escaparte con las llaves que te regalaron, vuelves a las afueras de la ciudad de Windom. A la distancia lográs ver a un ejercito liderado por un tipo que tenía en la cabeza un casco de serpiente y en sus lanzas partes de cuerpos, el 'lider bandido'",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 13,
+    "img": "12.svg"
+  },
+  {
+    "opcion": 13,
+    "numBtns": 1,
+    "titulo": "Monstruo bandido",
+    "texto": "Con unos movimientos de espada de un lado al otro y tirando unas cuantas flechas, lográs reducir su ejercito por completo. La única persona que aún no había muerto era el lider bandido porque resulta que era un monstruo, que dió a conocer su rostro una vez que casi se muere.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 14,
+    "img": "13.svg"
+  },
+  {
+    "opcion": 14,
+    "numBtns": 1,
+    "titulo": "Chau monstruo",
+    "texto": "Este monstruo te golpea una y otra vez, te lleva de la pared al piso y del piso a la pared. Cuando no te quedan más fuerzas te agarra de los brazos para comerte, y antes de que lo haga le disparás con tu cañón de mano. El monstruo una vez recibido el disparo cae muerto diciendo 'no quiero morir, ayudame'. ",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 15,
+    "img": "14.svg"
+  },
+  {
+    "opcion": 15,
+    "numBtns": 1,
+    "titulo": "La marca",
+    "texto": "Al seguir tu camino a algún lado, un abuelo y su nieta te preguntan si quieren que te alcancen a algún lado, respondés que si y te quedás dormido en la parte de atrás. A los pocos minutos de despertás por el ruido de unos esqueletos vivientes que venían por vos, por tu marca que llevás en el cuello.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 16,
+    "img": "15.jpg"
+  },
+  {
+    "opcion": 16,
+    "numBtns": 1,
+    "titulo": "La marca",
+    "texto": "Siguiendo con la rutina, sacás tu espada y repartís a diestra y siniestra hacía todos estos esqueletos vivientes. Uno de ellos alcanzá a la nieta del abuelo y es poseída por él, la cual también mata a su abuelo. No te queda mucho más remedio que matar a ella también y seguís tu cacería de esqueletos.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 17,
+    "img": "16.svg"
+  },
+  {
+    "opcion": 17,
+    "numBtns": 1,
+    "titulo": "La marca",
+    "texto": "Estuviste toda la noche matando esqueletos, tan así que se volvió de día. Con el campo de batalla libre de enemigos decidís seguir tu camino a pie hasta la próxima ciudad.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 18,
+    "img": "17.svg"
+  },
+  {
+    "opcion": 18,
+    "numBtns": 1,
+    "titulo": "El ángel guardián del deseo I",
+    "texto": "Después de caminar por horas llegás a la ciudad más cercana, que en ese momento se encontraba decapitando una hereje. Sentís la presencia de un monstruo en ese lugar, por tu marca, esta vez el monstruo era el rey que se encontraba sentado observando como decapitaban a la hereje. La cabeza de la hereje rueda hacía vos y decidis dibujarle la marca de sacrificio (la que tenés en el cuello) en la frente y lanzarla al rey.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 19,
+    "img": "18.svg"
+  },
+  {
+    "opcion": 19,
+    "numBtns": 1,
+    "titulo": "El ángel guardián del deseo I",
+    "texto": "El rey toma esto como una declaración de guerra, y sus subditos comienzan a seguirte. Vos lográs escabullirte por la ciudad, pero consiguen encerrarte en un callejón. Entre las rejas de una salida a otra parte de la ciudad aparece un hombre de apariencia descuidada ofreciendote una escapatoria por allá, la cual tomás sin pensarlo dos veces.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 20,
+    "img": "19.svg"
+  },
+  {
+    "opcion": 20,
+    "numBtns": 1,
+    "titulo": "El ángel guardián del deseo I",
+    "texto": "Esa salida conducía hasta la casa de este hombre. Dentro de su casa el hombre te pide que mates al rey, ya que a él le había destruído parte de la cara, cortado extremidades y devorado a su familia. Al darse cuenta que entiendés de lo que estás hablando te muestra el objeto culpable de la forma del rey, un 'behelit'.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 21,
+    "img": "20.svg"
+  },
+  {
+    "opcion": 21,
+    "numBtns": 1,
+    "titulo": "El ángel guardián del deseo II",
+    "texto": "Este hombre, el cual se llama 'Vargas' te explica que no sabe exactamente qué es ese huevo, pero se lo robó al rey cuando escapó de la torre donde lo torturaron y comieron a su familia. Vos le explicas que el behelit es la llave entre este mundo y otro en donde reinan los miembros de la 'mano de dios', ellos lideran el lado oscura desde tiempo ancestrales.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 22,
+    "img": "21.jpg"
+  },
+  {
+    "opcion": 22,
+    "numBtns": 1,
+    "titulo": "El ángel guardián del deseo II",
+    "texto": "En medio de esta conversación se infiltra a la casa un hombre que fue moficado genéticamente por el rey con genes de monstruo. Lo atacás y puede regenerar sus extremidades cortadas de forma monstruosa, pero lográs que destruya la casa y que se le venga abajo a este monstruo, acabando con él. Te despedís de Vargas y seguís tu camino a la ciudad.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 23,
+    "img": "22.jpg"
+  },
+  {
+    "opcion": 23,
+    "numBtns": 1,
+    "titulo": "El ángel guardián del deseo II",
+    "texto": "Consiguen interceptar a Vargas y se lo llevan para cortarle la cabeza. Te presentás a su decapitación solo para ver, ya que sos un tipo curioso pero no boludo. Al caer la noche llegas al lugar a donde fue a parar la cabeza de Vargas en una zanja, en este mismo lugar hay dos personas jugando con su cabeza. Agarrás tu espada y matás a estas dos personas, y mirando la cara de Vargas decís 'yo no voy a fallar como vos'",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 24,
+    "img": "23.jpg"
+  },
+  {
+    "opcion": 24,
+    "numBtns": 1,
+    "titulo": "El ángel guardián del deseo III",
+    "texto": "Al día siguiente te dirigís hacía el castillo para terminar la última petición de Vargas, por motivos personales y no exactamente por él. Poco antes de llegar al castillo vuelve a aparecer el soldado del rey modificado genéticamente, el cual aparentemente todavía no murió. Volvés a atacarlo y descubrís que su punto débil se encuentra en la cabeza de monstruo que le volvió a crecer en la cabeza. Entonces agarrás ese parte y la aplastás.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 25,
+    "img": "24.jpg"
+  },
+  {
+    "opcion": 25,
+    "numBtns": 1,
+    "titulo": "El ángel guardián del deseo III",
+    "texto": "Lográs infiltrarte en el castillo y después de barrer a todos los soldados del rey que se interpusieron en tu camino llegás al salón donde se encuentra él sentado en su trono. Poco después comienza la batalla contra este ente que muestra su forma monstruosa desde el inicio. Este monstruo te pega una y otra vez sin dejarte pegarle, el único movimiento que lograste fue sacarle un ojo, pero poco le influyó.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 26,
+    "img": "25.jpg"
+  },
+  {
+    "opcion": 26,
+    "numBtns": 1,
+    "titulo": "El ángel guardián del deseo IV",
+    "texto": "Tu compañero, el hada 'Puck', le muestra al monstruo el behelit que tenías en tu bolsillo haciendo que deje de tenerte como objetivo. En medio de todo esto aparece la hija del rey, y la usás como carnada para poder dispararle una bala de cañón, para después agarrar tu espada con la boca y cortarle la cara para acabar con él. ",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 27,
+    "img": "26.svg"
+  },
+  {
+    "opcion": 27,
+    "numBtns": 1,
+    "titulo": "El ángel guardián del deseo IV/V",
+    "texto": "En los últimos momentos de vida que le quedaban al rey, ruega por su vida para no morir. El behelit reacciona ante el llanto del hombre transportandote tanto a vos como a su hija a la dimensión de la 'mano de dios'. Allá se encuentra la persona que tanto buscabas, Griffith. En un arranque de ira te dirigís hacía él con tu espada en la mano (que fue restaurada gracias a Puck), pero cada vez que te acercás te morís del dolor por la marca que tenés en el cuello que reacciona ante la maldad. Lográs llegar a él pero te empuja sin siquiera mover un dedo, y te devuelve al piso.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 28,
+    "img": "27.svg"
+  },
+  {
+    "opcion": 28,
+    "numBtns": 4,
+    "titulo": "El ángel guardián del deseo VI",
+    "texto": "Volviendo al rey, necesita hacer un sacrificio de algo que el ame para poder volver a la vida, y para su conveniencia su hija estaba ahí para poder ser sacrificada. Lo único que tenía que hacer el rey era pedir que ella sea sacrificada, pero no lo hizo y el torbellino de muertos se lo llevó. Este mismo torbellino al ver la marca de sacrificio en tu cuello quisieron agarrarte pero pudiste escapar.",
+    "rutaOp1": "Seguir leyendo",
+    "rutaBtn1": 29,
+    "img": "28.svg"
+  }
 ]
