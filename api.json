@@ -23,7 +23,7 @@
   },
   {
     "opcion": 2,
-    "numBtns": 2,
+    "numBtns": 4,
     "titulo": "Windom",
     "texto": "Caminando por las calles de Wimdom, te encontrás con un bicho sanguinario que está en busca de manzanas.",
     "rutaOp1": "Atacar",

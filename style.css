@@ -63,3 +63,8 @@ main .dialog {
         height: 300px;
     }
 }
+
+progress {
+    color: gray;
+    background-color: gray;
+}
